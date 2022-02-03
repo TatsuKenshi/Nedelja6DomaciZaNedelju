@@ -113,8 +113,9 @@ export class Checkout {
       data5.style.width = "300px";
       data5.textContent = item.productVAT;
       const data6 = document.createElement("td");
+      const sub = item.productPrice * item.productQuantity;
       data6.style.width = "300px";
-      data6.textContent = item.productPrice * item.productQuantity;
+      data6.textContent = sub.toFixed(2);
 
       prodRow.append(data1, data2, data3, data4, data5, data6);
       table.append(prodRow);
@@ -137,7 +138,7 @@ export class Checkout {
     const lastRow = document.createElement("tr");
     const totalData = document.createElement("td");
     totalData.style.width = "300px";
-    totalData.textContent = `VAT/TOTAL: ${totalVat}/${totalPrice}`;
+    totalData.textContent = `VAT/TOTAL: ${totalVat}/${totalPrice.toFixed(2)}`;
     lastRow.append(totalData);
     table.append(lastRow);
   }

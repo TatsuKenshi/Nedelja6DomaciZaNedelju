@@ -69,11 +69,10 @@ export class ShoppingCart {
       kolicinaKupljenogProizvoda.classList.add("kolicinaKupljenogProizvoda");
       kolicinaKupljenogProizvoda.textContent = `Kolicina: ${item.quantity}`;
 
+      let medjuzbirBroj = item.quantity * item.product.price;
       const medjuzbir = document.createElement("p");
       medjuzbir.classList.add("medjuzbir");
-      medjuzbir.textContent = `Medjuzbir: ${
-        item.quantity * item.product.price
-      }`;
+      medjuzbir.textContent = `Medjuzbir: ${medjuzbirBroj.toFixed(2)}`;
 
       const izbaciIzKorpe = document.createElement("button");
       izbaciIzKorpe.classList.add("izbaciIzKorpe");
