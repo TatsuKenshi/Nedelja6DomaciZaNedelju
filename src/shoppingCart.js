@@ -78,6 +78,12 @@ export class ShoppingCart {
       izbaciIzKorpe.classList.add("izbaciIzKorpe");
       izbaciIzKorpe.textContent = "Izbaci iz korpe";
       izbaciIzKorpe.id = idCount++;
+      izbaciIzKorpe.style.background = "white";
+      izbaciIzKorpe.style.padding = "2px 10px";
+      izbaciIzKorpe.style.borderRadius = "10px";
+      izbaciIzKorpe.style.fontSize = "0.75rem";
+      izbaciIzKorpe.style.color = "#023047";
+      izbaciIzKorpe.style.fontWeight = "700";
 
       // izbaci iz korpe listener
       izbaciIzKorpe.addEventListener("click", function (e) {
