@@ -1,6 +1,5 @@
 // importi
 import { Product, ProductGroup } from "./products.js";
-import { ShoppingCart } from "./shoppingCart.js";
 
 // DOM elementi
 const shoppingItems = document.querySelector(".shoppingItems");
