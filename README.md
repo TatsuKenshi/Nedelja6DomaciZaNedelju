@@ -35,11 +35,11 @@ Main features of this app include:
 
 1. To install this project on your machine and get it up and running, you should first clone this repository. Open the terminal, navigate to the desired destination on your drive, and run the following command:
 
-git clone https://github.com/TatsuKenshi/Nedelja9DomaciZaNedelju
+git clone https://github.com/TatsuKenshi/Nedelja6DomaciZaNedelju
 
 2. When the download is done, navigate to the project's folder with the following command:
 
-cd Nedelja9DomaciZaNedelju
+cd Nedelja6DomaciZaNedelju
 
 3. Open the project in the code editor or IDE of your choice and open index.html.
 
