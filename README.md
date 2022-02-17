@@ -15,7 +15,6 @@ The project is considered finished, and there won't be any expansions in terms o
 This project was done in JavaScript, without the use of any frameworks or libraries. Vanilla CSS was used for styling.
 
 <b>Built with</b>
-Aside from React.js, I also used
 
 - HTML
 - CSS
